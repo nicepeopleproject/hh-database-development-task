@@ -99,3 +99,4 @@ CREATE INDEX vacancy_required_citizenship_country_index ON vacancy_required_work
 CREATE INDEX vacancy_response_vacancy_index ON vacancy_responses (vacancy_id);
 Поиск всех отправленных и полученных откликов конкретного резюме
 CREATE INDEX vacancy_response_resume_index ON vacancy_responses (resume_id);
+
